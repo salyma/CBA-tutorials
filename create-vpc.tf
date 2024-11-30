@@ -1,4 +1,4 @@
-# Create a new VPC to launch our instances into
+# Create a new VPC to launch our EC2 instances
 resource "aws_vpc" "custom" {
   cidr_block           = var.vpc_cidr
   enable_dns_support   = true
